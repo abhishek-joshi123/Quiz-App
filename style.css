@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.jbhZjQfmi66pyo9tpVlTTgHaEG?pid=ImgDet&rs=1");
+}
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color: #3d3b3e;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1{
+    width: 1000px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: antiquewhite;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px rgb(106, 6, 246);
+}
+
+.container{
+    height: 60vh;
+    width: 100%;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 80%;
+    width: 700px;
+    background-color: antiquewhite;
+    outline: 3px dashed rgb(249, 6, 249);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px;
+    overflow: hidden;
+}
+
+.Question{
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid rgb(249, 6, 249);
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #04dbf7;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.Option{
+    height: 20%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 40px;
+    margin: 50px;
+}
+
+.Option button{
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    font-size: xx-large;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Option button:hover{
+    background-color: cyan;
+}
+
+.box2{
+    height: 60%;
+    width: 500px;
+    overflow: hidden;
+    background-color: #04dbf7;
+    outline: 3px dashed rgb(249, 6, 249);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 button{
+    height: 25%;
+    width: 200px;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #19f128;
+    border: 2px solid #026302;
+    border-radius: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.box2 button:hover{
+    transition: transform 90ms;
+    transform: scale(1.1);
+    background-color: #19ec71;
+}
+
+.box3{
+    height: 60%;
+    width: 700px;
+    overflow: hidden;
+    background-color: #04dbf7;
+    outline: 3px dashed rgb(249, 6, 249);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px;
+    
+}
+
+.box3 h1{
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    letter-spacing: 3px;
+}
+
+.score{
+    height: 40%;
+    width: 20%;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    background-color: antiquewhite;
+    outline: 2px dashed #240aea;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.score p{
+    padding: 20px 0;
+    color: #1e00ff;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+#BelowBtns{
+    height: 10vh;
+    width: 100vw;
+    display: none;
+}
+
+.ExtaraButtons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    height: 50%;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns button{
+    height: 50px;
+    width: 200px;
+    /* background: linear-gradient(to right, #f81a1a, #bef74c); */
+    border: 2px solid rgb(2, 2, 3);
+    border-radius: 20px;
+    cursor: pointer;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    background-color: #240aea;
+}
+
+#b1:hover{
+    background-color: #19ec71;
+}
+
+#b2:hover{
+    background-color: #19ec71;
+}
+
+#b3:hover{
+    background-color: #1994ec;
+}
+
+#b4{
+    width: 150px;
+    height: 50px;
+    border: 2px solid rgb(2, 2, 3);
+    border-radius: 20px;
+    cursor: pointer;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    background-color: #240aea;
+    position: absolute;
+    top: 75vh;
+    left: 45%;
+    display: none;
+}
+
+#b4:hover{
+    background-color: #1994ec;
+}
+
+
